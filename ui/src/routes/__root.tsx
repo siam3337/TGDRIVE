@@ -185,7 +185,7 @@ function Sidebar({
             collapsed && !mobile ? "max-w-0 opacity-0" : "max-w-40 opacity-100",
           )}
         >
-          <p className="text-base font-semibold tracking-tight">Teldrive</p>
+          <p className="text-base font-semibold tracking-tight">SunDrive</p>
           <p className="text-[10px] uppercase tracking-[0.16em] text-muted">{t("app.tagline")}</p>
         </div>
       </div>

@@ -351,7 +351,7 @@ function PublicSharePage() {
             <LogoIcon className="size-5" />
           </div>
           <div className="min-w-0 flex-1">
-            <p className="text-sm font-semibold">Teldrive</p>
+            <p className="text-sm font-semibold">SunDrive</p>
             <p className="truncate text-xs text-muted">
               {share
                 ? `${share.file.name} · ${share.file.kind === "folder" ? t("pub.sharedFolder") : formatBytes(share.file.size ?? 0)}`
